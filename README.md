@@ -34,6 +34,9 @@ $ cd weatherApp
 # Instale as dependências
 $ npm install
 
+#crie uma conta em: 
+https://openweathermap.org/
+
 # abra o .env e coloque a api key em
 REACT_APP_ACCUWEATHER_API_KEY = "xxxxxxxxxxx" 
 
