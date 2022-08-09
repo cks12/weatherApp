@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --z-index-1: 1;
+    --z-index-2: 2;
+    --z-index-3: 3;
+    --color: white;
+}
+
+.application {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: var(--color);
+    align-items: center;
+    padding: 20px;
+    height: 100vh;  
+}
+
+.contianer {
+    width: 100%;
+    max-width: 500px;
+    height: 90%;
+
+}
+
+header {
+    width: 100%;
+}
+
+header h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+header h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+header h2 span {
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+main svg {
+    fill: var(--color) !important;
+}
+
+main .group {
+    display: flex;
+    width: 100%;
+}
+
+main .tempeture {
+    display: flex;
+    align-items: flex-end;
+    border-right: 1px solid var(--color);
+    padding: 0 20px;
+}
+main .climate {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .climate span {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .tempeture small {
+    font-size: 80px;
+    margin-left: 10px;
+}
+main .tempeture span {
+    font-size: 80px;
+    letter-spacing: -5px;
+}
+
+main .loc {
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    width: 100vw;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color);
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputGroup input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+}
+
+.inputGroup button {
+    border: 0;
+    width: 43px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4bb543;
+    border-radius: 0 8px 8px 0;
+}
+
+.inputGroup button svg{
+    width: 50%;
+    fill: var(--color);
+    height: 50%;
+}
+
+.Thunderstorm{
+    background: rgb(0,7,43);
+    background: linear-gradient(0deg, rgba(0,7,43,1) -20%, rgba(43,14,73,1) 0%, rgba(235,0,255,1) 100%);
+    --background-color: rgb(0,7,43) !important;
+}
+
+.Drizzle {
+    background: rgb(5,30,93);
+    background: linear-gradient(0deg, rgba(5,30,93,1) 0%, rgba(32,79,196,1) 30%, rgba(173,170,177,1) 100%);
+    --background-color: rgb(5,30,93) !important;
+}
+
+.Rain {
+    background: rgb(57,57,57);
+    background: linear-gradient(0deg, rgba(57,57,57,1) 0%, rgba(173,170,177,1) 100%);
+    --background-color: rgb(57,57,57) !important;
+}
+
+.Mist {
+    background: rgb(57,57,57);
+    background: linear-gradient(0deg, rgba(57,57,57,1) 0%, rgba(173,170,177,1) 100%);
+    --background-color: rgb(57,57,57) !important;
+}
+
+.Clear.day {
+    background: rgb(5,30,93);
+    background: linear-gradient(0deg, rgba(5,30,93,1) 0%, rgba(32,179,196,1) 42%, rgba(0,224,255,1) 100%);
+    --background-color: rgb(5,30,93) !important;
+}
+
+.Clear {
+    background: rgb(5,30,93);
+    background: linear-gradient(0deg, rgba(5,30,93,1) 0%, rgba(32,179,196,1) 42%, rgba(0,224,255,1) 100%);
+    --background-color: rgb(5,30,93) !important;
+}
+
+.Clear.night {
+    background: rgb(5,30,93);
+    background: linear-gradient(0deg, rgba(5,30,93,1) 0%, rgba(2,0,88,1) 21%, rgba(1,0,23,1) 100%);
+    --background-color: rgb(5,30,93) !important;
+}
+
+.Clouds {
+    background: rgb(53,191,249);
+    background: linear-gradient(0deg, rgba(53,191,249,1) 0%, rgba(142,213,232,1) 100%);
+    --background-color: rgb(53,191,249) !important;
+}
+
+
+footer{
+    background-color: var(--background-color);
+}
+
+@media only screen and (min-width: 700px) {
+    .contianer {
+        -webkit-box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.71); 
+        box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.71);
+        border-radius: 8px;
+        padding: 30px;
+    }
+    .inputGroup {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .application{
+        overflow-x: hidden;
+    }
+}
