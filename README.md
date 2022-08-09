@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="https://github.com/cks12/weatherApp/">⛅ Weather App</a>
+    <a href="https://cks12.github.io/weatherApp/">⛅ Weather App</a>
 </h1>
 <h2 align="center">Aplicão web meteorologia</h2>
 
