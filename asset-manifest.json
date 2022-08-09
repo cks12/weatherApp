@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/weatherApp/static/css/main.942f8f6b.css",
+    "main.js": "/weatherApp/static/js/main.c72582b6.js",
+    "static/js/787.d1d4a2c2.chunk.js": "/weatherApp/static/js/787.d1d4a2c2.chunk.js",
+    "static/media/wi-day-rain-mix.svg": "/weatherApp/static/media/wi-day-rain-mix.d8a1090b5bee0ac9b648a8037644a8e4.svg",
+    "static/media/wi-night-alt-rain-mix.svg": "/weatherApp/static/media/wi-night-alt-rain-mix.5572473b6a3a9460cc9244f6da8b1edd.svg",
+    "static/media/wi-day-windy.svg": "/weatherApp/static/media/wi-day-windy.f35b731c95e727b1052c69c94a0a9f6d.svg",
+    "static/media/wi-day-rain.svg": "/weatherApp/static/media/wi-day-rain.320e0e5ad36b9104b579d3bda74c71f0.svg",
+    "static/media/wi-day-thunderstorm.svg": "/weatherApp/static/media/wi-day-thunderstorm.4dd82b3f979296206124edb9a2bc6766.svg",
+    "static/media/wi-snowflake-cold.svg": "/weatherApp/static/media/wi-snowflake-cold.c9f5e3ad85b1a66b37228bad6607e677.svg",
+    "static/media/wi-night-alt-rain.svg": "/weatherApp/static/media/wi-night-alt-rain.6c324d4d4c0b9b4d28a9509aef3358b4.svg",
+    "static/media/wi-day-sunny.svg": "/weatherApp/static/media/wi-day-sunny.c23e7855e1cb8ac7c36d069db6dc68c5.svg",
+    "static/media/wi-day-cloudy.svg": "/weatherApp/static/media/wi-day-cloudy.d3602df8f1e9ba231925ee9c62778df5.svg",
+    "static/media/wi-night-alt-thunderstorm.svg": "/weatherApp/static/media/wi-night-alt-thunderstorm.033ea52192d8571782b63aae5d603a20.svg",
+    "static/media/wi-night-alt-cloudy-windy.svg": "/weatherApp/static/media/wi-night-alt-cloudy-windy.dc8f95044c7ae631cfc51cb24b20fcb0.svg",
+    "static/media/wi-night-alt-cloudy.svg": "/weatherApp/static/media/wi-night-alt-cloudy.da42fbe06be8e9e86a4e80e72f9040c8.svg",
+    "static/media/wi-cloudy.svg": "/weatherApp/static/media/wi-cloudy.ba3686e4a3d64a9dc5cff6628ec1a8ed.svg",
+    "static/media/wi-night-clear.svg": "/weatherApp/static/media/wi-night-clear.2923306bed84bccf8845e60e2b0f3aed.svg",
+    "static/media/wi-cloud.svg": "/weatherApp/static/media/wi-cloud.f7ed7c0e2663da6c517e8edceb09c248.svg",
+    "static/media/Search.svg": "/weatherApp/static/media/Search.a9f707898e144ed582fad37d2f803e0b.svg",
+    "index.html": "/weatherApp/index.html",
+    "static/media/wi-na.svg": "/weatherApp/static/media/wi-na.4ac6bc866330456798a7813c79f86ae3.svg",
+    "main.942f8f6b.css.map": "/weatherApp/static/css/main.942f8f6b.css.map",
+    "main.c72582b6.js.map": "/weatherApp/static/js/main.c72582b6.js.map",
+    "787.d1d4a2c2.chunk.js.map": "/weatherApp/static/js/787.d1d4a2c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.942f8f6b.css",
+    "static/js/main.c72582b6.js"
+  ]
+}
