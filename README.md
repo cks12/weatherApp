@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <a href="https://github.com/cks12/weatherApp/">⛅ Weather App</a>
+</h1>
+<h2 align="center">Aplicão web meteorologia</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Badge](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-## Available Scripts
+<h4 align="center"> 
+	✅ Completo ✅
+</h4>
 
-In the project directory, you can run:
+### Features
 
-### `yarn start`
+- [x] Pesquisa de cidade
+- [x] Temperatura pela localização
+- [x] Salvar em localstorage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pré-requisitos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### `yarn test`
+### 🎲 Rodando a aplicação (servidor)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Clone este repositório
+$ git clone <git@github.com:cks12/weatherApp.git>
 
-### `yarn build`
+# Acesse a pasta do projeto no terminal/cmd
+$ cd weatherApp
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Instale as dependências
+$ npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# abra o .env e coloque a api key em
+REACT_APP_ACCUWEATHER_API_KEY = "xxxxxxxxxxx" 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
 
-### `yarn eject`
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🛠 Tecnologias
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Autor
+---
 
-## Learn More
+<a href="https://cks12.github.io/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/89619179?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Caio Fresneda</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">🚀</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feito com ❤️ por Caio Fresneda 🫶 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Caio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/caiofrsouza/) 
+[![Gmail Badge](https://img.shields.io/badge/-caiofresneda@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:caiofresneda@gmail.com)](mailto:caiofresneda@gmail.com)
