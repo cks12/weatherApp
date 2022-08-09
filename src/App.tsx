@@ -74,7 +74,7 @@ function App() {
       </button>
       </form>
       <p>@Feito com amor em São Paulo</p>
-      <a href="#">Github</a>
+      <a href="https://github.com/cks12">Github</a>
     </footer>
     </div>
 
