@@ -26,6 +26,7 @@
     width: 100%;
     max-width: 500px;
     height: 90%;
+    min-height: 800px;
 
 }
 
@@ -190,13 +191,16 @@ footer{
     background-color: var(--background-color);
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px){
     .contianer {
         -webkit-box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.71); 
         box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.71);
         border-radius: 8px;
         padding: 30px;
     }
+}
+
+@media only screen and (min-width: 1300px) {
     .inputGroup {
         position: absolute;
         top: 20px;
