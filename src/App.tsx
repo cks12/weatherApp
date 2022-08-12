@@ -68,6 +68,7 @@ function App() {
         handleSearchCity();
       }} className="inputGroup">
       <input 
+        placeholder={climaticInfo?.name}
         onChange={updateSearchTearm} value={searchTerm} type="text" />
       <button type='submit'>
         <Search/>
